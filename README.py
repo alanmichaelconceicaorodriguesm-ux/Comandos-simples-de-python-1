@@ -20,3 +20,30 @@ print(alunos)
 alunos = ["David", "Alan", "Charlie", "Bob", "Eva"]
 alunos.sort()
 print(alunos)
+
+alunos = ["David", "Alan", "Charlie", "Bob", "Eva"]
+alunos[0] = "Alice"
+print(alunos)
+
+alunos = ["David", "Alan", "Charlie", "Bob", "Eva"]
+alunos[0] = "Alice"
+print(len(alunos))
+
+valores = [10, 20, 30, 40, 50]
+print(max(valores))
+
+valores = [10, 20, 30, 40, 50]
+print(min(valores))
+
+valores = [10, 20, 30, 40, 50]
+print(sum(valores))
+
+alunos = ["Alice", "Bob", "Charlie", "David", "Eva"]
+
+print(alunos[0])
+#for aluno in alunos:
+#    print(aluno)
+#    print()
+#print(alunos[0])
+
+# Cadeia de comando logo acima...
